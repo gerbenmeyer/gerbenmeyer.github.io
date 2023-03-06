@@ -1,1 +1,226 @@
-hello
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gerben Meyer</title>
+    <meta name="description" content="CTO at Resumedia" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        min-height: 100%;
+      }
+      body {
+        font-family: "Lato", sans-serif;
+        color: #333;
+        font-size: 20px;
+        font-weight: 400;
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-position: 70% 50%;
+        background-repeat: no-repeat;
+      }
+      main {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 25%;
+        min-width: 500px;
+        box-sizing: border-box;
+        background: white;
+        overflow: auto;
+        padding: 2rem;
+      }
+      @media (max-width: 700px) {
+        main {
+          min-width: 320px;
+          width: 100%;
+        }
+      }
+      p.photo {
+        margin-top: 2rem;
+        text-align: center;
+      }
+      p.photo img {
+        width: 180px;
+        max-width: 100%;
+        border-radius: 50%;
+      }
+      h1 {
+        font-family: "Anton", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0rem -1rem;
+        line-height: 40px;
+        text-align: center;
+      }
+      h2 {
+        margin: 0px;
+        font-size: 20px;
+        text-align: center;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: none;
+      }
+      a:hover span,
+      a:focus span {
+        text-decoration: underline;
+      }
+      a.button {
+        display: inline-block;
+        margin-right: 8px;
+      }
+      a.button i.fa {
+        font-size: 38px;
+        margin: 0;
+        vertical-align: middle;
+        color: #666;
+      }
+      a.button i.fa.small {
+        font-size: 32px;
+      }
+      a.button:hover i.fa {
+        color: #333;
+      }
+      a.tiny {
+        font-size: 12px;
+        color: #aaa;
+      }
+      p,
+      dl {
+        margin: 2rem 0;
+      }
+      dt {
+        color: #aaa;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      dd {
+        margin: 0 0 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="photo">
+        <img src="hacker.jpeg" />
+      </p>
+
+      <h1>Gerben Meyer</h1>
+      <h2>CTO at Resumedia</h2>
+
+      <dl>
+        <dt>Work</dt>
+        <dd>
+          CTO at
+          <a target="_blank" href="https://www.resumedia.com"
+            ><span>Resumedia</span></a
+          >
+        </dd>
+        <dt>Previous</dt>
+        <dd>
+          <a target="_blank" href="https://www.bizcuit.nl"
+            ><span>Bizcuit</span></a
+          >,
+          <a target="_blank" href="https://www.zoover.nl"><span>Zoover</span></a
+          >,
+          <a
+            target="_blank"
+            href="https://github.com/gerbenmeyer/gerbenmeyer.github.io/tree/main/publications"
+            ><span>science</span></a
+          >,
+          <span>etc.</span>
+        </dd>
+        <dt>Education</dt>
+        <dd>
+          <a target="_blank" href="https://www.rug.nl"
+            ><span>University of Groningen</span></a
+          >
+        </dd>
+        <dt>Location</dt>
+        <dd>
+          <a
+            target="_blank"
+            href="https://www.google.com/maps/place/Utrecht+Province,+Netherlands"
+            ><span>Utrecht Area, The Netherlands</span></a
+          >
+        </dd>
+        <dt>E-mail</dt>
+        <dd>
+          <a target="_blank" href="mailto:gerben.meyer@gmail.com"
+            ><span>gerben.meyer@gmail.com</span></a
+          >
+        </dd>
+        <dt>Website</dt>
+        <dd>
+          <a target="_blank" href="https://meyer.gg"
+            ><span>https://meyer.gg</span></a
+          >
+        </dd>
+        <dt>More</dt>
+        <dd>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/gerbenmeyer"
+            class="button"
+            title="LinkedIn"
+            ><i class="fa fa-linkedin-square"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://twitter.com/gerbenmeyer"
+            class="button"
+            title="Twitter"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/gerbenmeyer"
+            class="button"
+            title="Github"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://scholar.google.com/citations?user=V1ha17MAAAAJ"
+            class="button"
+            title="Google Scholar"
+            ><i class="fa fa-university small"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.violetzdesign.nl"
+            class="button"
+            title="VioletZDesign - Unieke handgemaakte sieraden van natuursteen, zoetwaterparels, 925 zilver en roestvrij staal."
+            ><i class="fa fa-shopping-bag small"></i
+          ></a>
+        </dd>
+      </dl>
+
+      <p>
+        &copy; Gerben Meyer
+      </p>
+    </main>
+  </body>
+</html>
